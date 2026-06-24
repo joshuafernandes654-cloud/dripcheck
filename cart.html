@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="cart.js" defer></script>
+  <!-- Font Awesome for cart icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+  <div class="navbar">
+    <div class="title">Drip Check</div>
+    <a href="index.html">Home</a>
+    <a href="clothes.html">Clothes</a>
+    <a href="accessories.html">Accessories</a>
+    <a href="footwear.html">Footwear</a>
+    <!-- Cart Icon -->
+    <a href="cart.html" class="cart-icon"><i class="fas fa-shopping-cart"></i></a>
+  </div>
+</nav>
+
+<!-- Page Header -->
+<header class="page-header">
+  <h3>Cart</h3>
+</header>
+
+<h1>Your Cart</h1>
+<div id="cart-items"></div>
+<h2 id="total"></h2>
+<button onclick="checkout()">Checkout</button>
+<p id="thankyou" style="display:none; font-weight:bold; font-size:20px; margin-top:20px;">
+  Thank you for shopping from Drip Check
+</p>
+
+</body>
+</html>

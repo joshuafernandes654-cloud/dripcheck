@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clothes</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="cart.js" defer></script>
+  <!-- Font Awesome for cart icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+  <div class="navbar">
+    <div class="title">Drip Check</div>
+    <a href="index.html">Home</a>
+    <a href="clothes.html">Clothes</a>
+    <a href="accessories.html">Accessories</a>
+    <a href="footwear.html">Footwear</a>
+    <!-- Cart Icon -->
+    <a href="cart.html" class="cart-icon"><i class="fas fa-shopping-cart"></i></a>
+  </div>
+</nav>
+
+<!-- Page Header -->
+<header class="page-header">
+  <h3>Clothes</h3>
+</header>
+
+<!-- Products Section -->
+<section class="products">
+
+  <div class="product">
+    <img src="Public folder/Clothes1.jpeg" alt="Streetwear Muscle tee">
+    <h2>Graphic Muscle tee</h2>
+    <p>Sleeveless T-Shirt for a relaxed hip-hop vibe.</p>
+    <p class="price">₹1,299</p>
+    <button onclick="addToCart('Graphic Muscle tee', 1299)">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <img src="Public folder/Clothes2.jpeg" alt="Oversized Tee">
+    <h2>Oversized Tee</h2>
+    <p>Loose-fit T-Shirt perfect for retro street style.</p>
+    <p class="price">₹1,799</p>
+    <button onclick="addToCart('Oversized Tee', 1799)">Add to Cart</button>
+  </div>
+
+ <div class="product">
+    <img src="Public folder/Clothes3.jpeg" alt="Varsity Jacket">
+    <h2>Varsity Jacket</h2>
+    <p>Classic college-style jacket with street appeal.</p>
+    <p class="price">₹2,499</p>
+    <button onclick="addToCart('Varsity Jacket', 2499)">Add to Cart</button>
+  </div>
+
+
+  <div class="product">
+    <img src="Public folder/Clothes4.jpeg" alt="Reebok Pants">
+    <h2>Reebok Pants</h2>
+    <p>Sports track pants comfortable and streetstyle.</p>
+    <p class="price">₹899</p>
+    <button onclick="addToCart('Reebok Pants', 899)">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <img src="Public folder/Clothes5.jpeg" alt="Jeans Pants">
+    <h2>Jeans Pants</h2>
+    <p>Utility Jeans for streetwear fits.</p>
+    <p class="price">₹1,499</p>
+    <button onclick="addToCart('Jeans Pants', 1499)">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <img src="Public folder/Clothes6.jpeg" alt="Adidas Pants">
+    <h2>Adidas Pants</h2>
+    <p>Layered streetwear flannel shirt in bold checks.</p>
+    <p class="price">₹1,099</p>
+    <button onclick="addToCart('Adidas Pants', 1099)">Add to Cart</button>
+  </div>
+
+</section>
+<br>
+<footer>
+  <div class="footer-content">
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="clothes.html">Clothes</a></li>
+        <li><a href="accessories.html">Accessories</a></li>
+        <li><a href="footwear.html">Footwear</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Follow Us</h3>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+      </div>
+    </div>
+    <div class="footer-section">
+      <h3>Contact</h3>
+      <p>Email: info@dripcheck.com</p>
+      <p>Phone: +91-XXX-XXX-XXXX</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2024 Drip Check. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
